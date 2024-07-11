@@ -1,0 +1,56 @@
+/* Utility Classes */
+.dark__mode {
+    --main-body-color : #0e0e0f;
+    --main-light-color : #334155;
+    --main-dark-color : #fafafa;
+    --main-banner-color: #0f172a;
+    --main-border-color : #94a3b8;
+}
+.active__start__button {
+    background-color: var(--main-green-color);
+    color: #fafafa;
+}
+.hide__start__game {
+    display: none;
+}
+.display__none {
+    display: none;
+}
+.display__game {
+    display: block;
+}
+.display__banner {
+    display: block;
+}
+.wrong__example , .wrong {
+    background-color: #3f3f46;
+    color: #fafafa;
+}
+.orange__example , .partial {
+    background-color: #f97316;
+    color: #fafafa;
+}
+.correct__example , .correct {
+    background-color: #16a34a;
+    color: #fafafa;
+}
+.wrong , .correct , .partial {
+    transition: all 0.5s ease-in-out;
+}
+.active__banner {
+    background-color: var(--main-green-color);
+    color: #fafafa;
+}
+.active__banner svg {
+    color: #fafafa;
+}
+.selected__language , .selected__number{
+    background-color: var(--main-green-color);
+    color: #fafafa;
+}
+.display__settings {
+    display: flex;
+}
+.display__end__game {
+    display: grid;
+}
